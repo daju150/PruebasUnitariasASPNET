@@ -10,10 +10,9 @@ namespace PruebasUnitarias{
     class Program{
 
         static void Main(string[] args){
+            StormExample st = new StormExample();
 
-            Conexion conection = new Conexion();
-            conection.SPInsertProduct();
-
+            st.SPConsultar();
         }
     }
 }
